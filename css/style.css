@@ -1,0 +1,70 @@
+#quiz-name{
+  font-size: 23px;
+  text-align: center;
+}
+
+.question{
+  border: 1px dashed #666;
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  width: 70%;
+}
+.question-remove{
+  color: #FF0000;
+  cursor: pointer;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: -15px;
+}
+.question label{
+  width: 20px;
+}
+
+.question-title{
+  font-size: 18px;
+}
+
+.answer-remove, .outcome-remove{
+  color: #FF0000;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.add-question, .add-answer, .add-outcome{
+  color: #00AA00;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.result{
+  margin-left: 50px;
+}
+#quiz-results{ border-collapse: collapse;}
+
+#quiz-results th{
+  border: 1px solid #000;
+}
+#quiz-results tr{
+  border: 1px dashed #ccc;
+}
+#quiz-results td{
+  text-align: center;
+  width: 10%;
+}
+
+.results .answer{
+  border: 1px solid #000;
+  margin-bottom: 15px;
+}
+.outcome-holder{
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  width: 70%;
+}
+.outcome{
+  border: double #000;
+  padding: 10px;
+}
+.outcome-remove{ float: right;}

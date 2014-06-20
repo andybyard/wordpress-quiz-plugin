@@ -1,0 +1,32 @@
+#quiz-holder{
+  border: 1px dashed #666;
+  margin: 0 0 100px ;
+  padding: 25px;
+}
+#quiz-name{
+  text-align: center;
+}
+
+.questions{
+  border: 1px solid #ccc;
+  display: none;
+  margin-bottom: 15px;
+}
+.questions#q0{
+  display: block;
+}
+#the-answer{
+  display: none;
+  position: relative;
+}
+#post-text{
+  bottom: 100px;
+  color: #FF0000;
+  font-size: 40px;
+  font-weight: bold;
+  left: 50px;
+  position: absolute;
+}
+.question{
+  color: #FF0000;
+}
